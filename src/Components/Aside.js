@@ -14,6 +14,7 @@ function Aside() {
   return (
     <div className="aside">
       <h2 style={{color:color}}> Aside</h2>
+      <h3>The color is - {color}</h3>
       <button onClick={changeColor}>Change Color</button>
     </div>
   );
